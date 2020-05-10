@@ -1,0 +1,28 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            position: relative;
+        }
+
+        .menucon {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.3);
+            height: 100%;
+            z-index: 1;
+        }
+
+        .menitem {
+            background-color: salmon;
+            width: 70%;
+            margin: auto;
+            margin-top: 20%;
+        }
